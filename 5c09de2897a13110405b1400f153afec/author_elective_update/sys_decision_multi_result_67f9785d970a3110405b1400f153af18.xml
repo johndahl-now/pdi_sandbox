@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Pick Widget">ecd83019970a3110405b1400f153af5c</decision_table>
+        <label>Widget: Large Gr</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 19:47:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67f9785d970a3110405b1400f153af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget: Large Gr</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_decision_multi_result_67f9785d970a3110405b1400f153af18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 19:47:53</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=67f9785d970a3110405b1400f153af18"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>67f9785d970a3110405b1400f153af18</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 19:47:53</sys_created_on>
+        <sys_id>6bf9785d970a3110405b1400f153af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 19:47:53</sys_updated_on>
+        <value>Large Gr</value>
+        <variable display_value="Widget">13f9385d970a3110405b1400f153affd</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_decision_multi_result_67f9785d970a3110405b1400f153af18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Pick Widget">ecd83019970a3110405b1400f153af5c</decision_table><label>Widget: Large Gr</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-21 19:47:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67f9785d970a3110405b1400f153af18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Widget: Large Gr</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_decision_multi_result_67f9785d970a3110405b1400f153af18</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-21 19:47:53</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=67f9785d970a3110405b1400f153af18"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>67f9785d970a3110405b1400f153af18</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-21 19:47:53</sys_created_on><sys_id>6bf9785d970a3110405b1400f153af18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-21 19:47:53</sys_updated_on><value>Large Gr</value><variable display_value="Widget">13f9385d970a3110405b1400f153affd</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1420691185</payload_hash>
+        <record_name>Widget: Large Gr</record_name>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 19:47:53</sys_created_on>
+        <sys_id>e3f9785d970a3110405b1400f153af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b53c79e9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 19:47:53</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>2bf9785d120a31102e6825d302c0ee19</update_guid>
+        <update_guid_history>2bf9785d120a31102e6825d302c0ee19:1420691185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 20:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>33410d4d5db44c16a85ac340dab8f3c4</sys_id>
+        <sys_metadata>67f9785d970a3110405b1400f153af18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget: Large Gr</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_67f9785d970a3110405b1400f153af18</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_67f9785d970a3110405b1400f153af18">e3f9785d970a3110405b1400f153af1a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 20:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

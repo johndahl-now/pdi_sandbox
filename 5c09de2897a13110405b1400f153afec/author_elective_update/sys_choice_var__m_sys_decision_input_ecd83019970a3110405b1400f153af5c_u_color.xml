@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_color" table="var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_color</element>
+            <name>var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-21 19:45:22</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_color</sys_name>
+            <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c_u_color</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-21 19:45:22</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_color</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blue</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-21 19:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-21 19:45:22</sys_updated_on>
+            <value>blue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_color</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Green</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-21 19:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-21 19:45:22</sys_updated_on>
+            <value>green</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_color</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-21 19:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-21 19:45:22</sys_updated_on>
+            <value>red</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_color</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yellow</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_ecd83019970a3110405b1400f153af5c</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-21 19:45:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-21 19:45:23</sys_updated_on>
+            <value>yellow</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

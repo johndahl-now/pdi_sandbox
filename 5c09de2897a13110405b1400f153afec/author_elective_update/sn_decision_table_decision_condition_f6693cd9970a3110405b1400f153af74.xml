@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="Color">ae693c1d970a3110405b1400f153af6f</decision_input>
+        <decision_table display_value="Pick Widget">ecd83019970a3110405b1400f153af5c</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Blue</label>
+        <order>200</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 19:45:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f6693cd9970a3110405b1400f153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_f6693cd9970a3110405b1400f153af74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 19:45:23</sys_updated_on>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sn_decision_table_decision_condition_f6693cd9970a3110405b1400f153af74</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="Color">ae693c1d970a3110405b1400f153af6f</decision_input><decision_table display_value="Pick Widget">ecd83019970a3110405b1400f153af5c</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>Blue</label><order>200</order><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-21 19:45:23</sys_created_on><sys_domain>global</sys_domain><sys_id>f6693cd9970a3110405b1400f153af74</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sn_decision_table_decision_condition_f6693cd9970a3110405b1400f153af74</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-21 19:45:23</sys_updated_on><type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>-1881126055</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 19:45:23</sys_created_on>
+        <sys_id>be693cd9970a3110405b1400f153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b53c555950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 19:45:23</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>f2693cd92e0a3110bd323b2ec0a4c175</update_guid>
+        <update_guid_history>f2693cd92e0a3110bd323b2ec0a4c175:-1881126055</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">39d15111978a3110405b1400f153af86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-21 21:32:05</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>0b52b08bf9fa4f438185a29d14cfce41</sys_id>
+        <sys_metadata>f6693cd9970a3110405b1400f153af74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_f6693cd9970a3110405b1400f153af74</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_f6693cd9970a3110405b1400f153af74">be693cd9970a3110405b1400f153af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-21 21:32:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Paired with the Get Assigned To Department display business rule, this displays the Assigned To user's department name.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show assigned to department</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if( g_scratchpad.department ){
+		g_form.addInfoMessage( g_scratchpad.department );
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 23:00:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>102674d597e17110405b1400f153af32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Show assigned to department</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_script_client_102674d597e17110405b1400f153af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 23:31:31</sys_updated_on>
+        <table>x_803922_sbx_task</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2db60c48976e7110405b1400f153af70" sys_domain="global" table="x_803922_sbx_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-11 15:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adb60c48976e7110405b1400f153af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_803922_sbx_task" name="x_803922_sbx_task" sys_domain="global" view="Default view">2db60c48976e7110405b1400f153af70</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_803922_sbx_task" sys_domain="global" view="Default view">b54cdaec97e13110405b1400f153af63</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-11 15:22:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-11 15:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b60c48976e7110405b1400f153af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_803922_sbx_task" name="x_803922_sbx_task" sys_domain="global" view="Default view">2db60c48976e7110405b1400f153af70</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_803922_sbx_task" sys_domain="global" view="Default view">a9b60c48976e7110405b1400f153af72</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-11 15:22:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_803922_sbx_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-11 15:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2db60c48976e7110405b1400f153af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_803922_sbx_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2db60c48976e7110405b1400f153af70</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-11 15:22:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

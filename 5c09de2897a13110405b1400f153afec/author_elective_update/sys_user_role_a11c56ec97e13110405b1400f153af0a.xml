@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>sandbox_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 22:29:37</sys_created_on>
+        <sys_id>a11c56ec97e13110405b1400f153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sandbox_user</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_user_role_a11c56ec97e13110405b1400f153af0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 22:29:37</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_user_role_a11c56ec97e13110405b1400f153af0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>sandbox_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-24 22:29:37</sys_created_on><sys_id>a11c56ec97e13110405b1400f153af0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sandbox_user</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_user_role_a11c56ec97e13110405b1400f153af0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-24 22:29:37</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1699556396</payload_hash>
+        <record_name>sandbox_user</record_name>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 22:29:37</sys_created_on>
+        <sys_id>ad1c56ec97e13110405b1400f153af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac94fff280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 22:29:37</sys_updated_on>
+        <type>Role</type>
+        <update_guid>e11c56ec2ae13110d23f7af9de96cc0e</update_guid>
+        <update_guid_history>e11c56ec2ae13110d23f7af9de96cc0e:-1699556396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sandbox_user">c7a6271b97253110405b1400f153af2c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 16:58:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>9992b17460694818937a1c3805b632f9</sys_id>
+        <sys_metadata>a11c56ec97e13110405b1400f153af0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sandbox_user</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_user_role_a11c56ec97e13110405b1400f153af0a</sys_update_name>
+        <sys_update_version display_value="sys_user_role_a11c56ec97e13110405b1400f153af0a">ad1c56ec97e13110405b1400f153af0e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 16:58:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

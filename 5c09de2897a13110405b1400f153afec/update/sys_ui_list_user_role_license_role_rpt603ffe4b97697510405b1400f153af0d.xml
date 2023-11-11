@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="user_role_license_role" version="2" view="RPT603ffe4b97697510405b1400f153af0d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lr_category</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>237103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lr_name</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>a77103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lr_overridden</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>2b7103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lr_sys_id</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>ab7103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ur_name</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>2f7103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ur_sys_class_name</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>af7103c797a97510405b1400f153afa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ur_sys_id</element>
+            <list_id display_value="user_role_license_role" element="NULL" name="user_role_license_role" parent="NULL" relationship="NULL" sys_domain="global" view="ab7103c797a97510405b1400f153af9e">237103c797a97510405b1400f153afa0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_id>237103c797a97510405b1400f153afa2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>user_role_license_role</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>abel.tuter</sys_created_by>
+            <sys_created_on>2023-10-02 19:37:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>237103c797a97510405b1400f153afa0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>user_role_license_role</sys_name>
+            <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+            <sys_update_name>sys_ui_list_user_role_license_role_RPT603ffe4b97697510405b1400f153af0d</sys_update_name>
+            <sys_updated_by>abel.tuter</sys_updated_by>
+            <sys_updated_on>2023-10-02 19:37:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt603ffe4b97697510405b1400f153af0d" name="RPT603ffe4b97697510405b1400f153af0d">ab7103c797a97510405b1400f153af9e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:19:45</sys_created_on>
+        <sys_id>bcf787f897697110405b1400f153af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestEs12.itil</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_security_acl display_value="TestEs12">34f78fbc97297110405b1400f153afe8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bcf787f897697110405b1400f153af50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:19:45</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_security_acl_role_bcf787f897697110405b1400f153af50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-25 20:19:45</sys_created_on><sys_id>bcf787f897697110405b1400f153af50</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TestEs12.itil</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_security_acl display_value="TestEs12">34f78fbc97297110405b1400f153afe8</sys_security_acl><sys_update_name>sys_security_acl_role_bcf787f897697110405b1400f153af50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-25 20:19:45</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-843796809</payload_hash>
+        <record_name>TestEs12.itil</record_name>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:19:45</sys_created_on>
+        <sys_id>3cf787f897697110405b1400f153af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18acdff74770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:19:45</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>70f787f8be697110642a7383422df153</update_guid>
+        <update_guid_history>70f787f8be697110642a7383422df153:-843796809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TestEs12.itil">e738633c972d7110405b1400f153afac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 22:40:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>547452eecc024ae0a9af1b3b9e901100</sys_id>
+        <sys_metadata>bcf787f897697110405b1400f153af50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestEs12.itil</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent display_value="TestEs12">34f78fbc97297110405b1400f153afe8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bcf787f897697110405b1400f153af50</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bcf787f897697110405b1400f153af50">3cf787f897697110405b1400f153af53</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 22:40:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

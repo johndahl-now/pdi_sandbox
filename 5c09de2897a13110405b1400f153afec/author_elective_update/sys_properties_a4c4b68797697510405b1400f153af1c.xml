@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>true</is_private>
+        <name>x_803922_sbx.u_sbx_task_table</name>
+        <read_roles/>
+        <suffix>sbx_task_table</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 18:42:37</sys_created_on>
+        <sys_id>a4c4b68797697510405b1400f153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.u_sbx_task_table</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_properties_a4c4b68797697510405b1400f153af1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 18:42:37</sys_updated_on>
+        <type>string</type>
+        <value>x_803922_sbx_task</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=a4c4b68797697510405b1400f153af1c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_properties_a4c4b68797697510405b1400f153af1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>true</is_private><name>x_803922_sbx.u_sbx_task_table</name><read_roles/><suffix>sbx_task_table</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-02 18:42:37</sys_created_on><sys_id>a4c4b68797697510405b1400f153af1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_803922_sbx.u_sbx_task_table</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_properties_a4c4b68797697510405b1400f153af1c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-02 18:42:37</sys_updated_on><type>string</type><value>x_803922_sbx_task</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=a4c4b68797697510405b1400f153af1c"/></record_update>]]></payload>
+        <payload_hash>-552791278</payload_hash>
+        <record_name>x_803922_sbx.u_sbx_task_table</record_name>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 18:42:38</sys_created_on>
+        <sys_id>a2d4fe4797697510405b1400f153af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18af1b30f280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 18:42:38</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>e6d4fe47276975106eb4bdb93fa18c28</update_guid>
+        <update_guid_history>e6d4fe47276975106eb4bdb93fa18c28:-552791278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 18:46:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>23b6372d9fc34ce4aedc66127f04e4c4</sys_id>
+        <sys_metadata>a4c4b68797697510405b1400f153af1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.u_sbx_task_table</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_properties_a4c4b68797697510405b1400f153af1c</sys_update_name>
+        <sys_update_version display_value="sys_properties_a4c4b68797697510405b1400f153af1c">a2d4fe4797697510405b1400f153af29</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 18:46:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

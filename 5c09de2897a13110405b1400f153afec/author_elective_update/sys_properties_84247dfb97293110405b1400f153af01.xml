@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_803922_sbx.u_test.get.property</name>
+        <read_roles/>
+        <suffix>test.get.property</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 21:55:46</sys_created_on>
+        <sys_id>84247dfb97293110405b1400f153af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.u_test.get.property</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_properties_84247dfb97293110405b1400f153af01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 21:55:46</sys_updated_on>
+        <type>string</type>
+        <value>some string value</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=84247dfb97293110405b1400f153af01"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_properties_84247dfb97293110405b1400f153af01</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_803922_sbx.u_test.get.property</name><read_roles/><suffix>test.get.property</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-04 21:55:46</sys_created_on><sys_id>84247dfb97293110405b1400f153af01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_803922_sbx.u_test.get.property</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_properties_84247dfb97293110405b1400f153af01</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-04 21:55:46</sys_updated_on><type>string</type><value>some string value</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=84247dfb97293110405b1400f153af01"/></record_update>]]></payload>
+        <payload_hash>-1997004193</payload_hash>
+        <record_name>x_803922_sbx.u_test.get.property</record_name>
+        <reverted_from/>
+        <source>1809522c97e13110405b1400f153af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 21:55:46</sys_created_on>
+        <sys_id>9734fdfb97293110405b1400f153af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18afcb099b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 21:55:46</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>9b34fdfbb9293110de52329a1c86fa19</update_guid>
+        <update_guid_history>9b34fdfbb9293110de52329a1c86fa19:-1997004193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 12:35:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>858479c4134d4ebab9d4246ffd066004</sys_id>
+        <sys_metadata>84247dfb97293110405b1400f153af01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.u_test.get.property</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_properties_84247dfb97293110405b1400f153af01</sys_update_name>
+        <sys_update_version display_value="sys_properties_84247dfb97293110405b1400f153af01">9734fdfb97293110405b1400f153af1a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 12:35:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Step 4">66b81416251d7200964f48ca4b89e818</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2023-10-04 15:58:19">e517a1bb97e53110405b1400f153afed</related_log_entry>
+        <status>0</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 20:58:19</sys_created_on>
+        <sys_id>2d17a1bb97e53110405b1400f153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>gsw_status_of_content_2d17a1bb97e53110405b1400f153afed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 20:58:19</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

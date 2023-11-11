@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_803922_sbx.ProjectTaskHierarchy_Danith</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Danith on Discord asked about taking an array of project tasks and structuring them into a hierarchy.</description>
+        <name>ProjectTaskHierarchy_Danith</name>
+        <script><![CDATA[var ProjectTaskHierarchy_Danith = Class.create();
+ProjectTaskHierarchy_Danith.prototype = {
+    initialize: function() {
+    },
+
+    type: 'ProjectTaskHierarchy_Danith',
+	
+	sortArray: function( arr ){
+		/* Given an array of objects containing project task data,
+		 * sort the array by the parent_task field value.
+		 * Return a sorted array.
+		 */
+
+		return arr.sort( function( rec1, rec2 ){
+
+			return rec1.parent_task < rec2.parent_task ? -1 : 1;
+
+		} );
+	},
+	
+	getChildTasks: function( arr, parent ){
+		/* Given an array of records and a parent object,
+	     * filter the array to records that have the given number as 
+	     * a parent_task.
+	     * Set the parent object's children attribute to the filtered array.
+	     */
+
+		parent.children = arr.filter( function( rec ){
+
+			return rec.parent_task === parent.number;
+
+		} );
+
+	},
+	
+	getUniqueNumbers: function( arr, parentsOnly ){
+		/* Given an array of objects containing a parent_task reference,
+	     * determine the unique set of task number values from both
+	     * the number and parent_task fields.
+	     * Return an array of task number values.
+	     */
+		var numbers = new Set();
+
+		arr.map( function( rec ){
+
+			numbers.add( rec.parent_task );
+
+			if( parentsOnly !== true ) 
+				numbers.add( rec.number );
+
+		} );
+
+		return Array.from( numbers );
+
+	},
+	
+	
+	
+	
+	
+	
+	
+	user_data: [{"short_description":"child task under Review Clal Pla","parent":"Project Status Report Basleine","work_start":"09/21/2023 09:29:01 AM","time_constraint":"Must start on","sys_mod_count":"0","active":"false","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"100","number":"PRJTASK0011196","sys_id":"02fd3f4d1b65bd10243f6287624bcb80","u_comments":"","sys_updated_by":"system","u_end_date":"09/21/2023 09:29:01 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"09/21/2023 09:29:01 AM","state":"Closed Complete","u_status":"green","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/21/2023 09:29:01 AM","parent_task":"PRJTASK0010761"},{"short_description":"Leverage & Grow Provider  & Programs","parent":"Project Status Report Basleine","work_start":"02/01/2022 12:00:00 AM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"55","number":"PRJTASK0010759","sys_id":"06fd3f4d1b65bd10243f6287624bcb81","u_comments":"","sys_updated_by":"system","u_end_date":"12/29/2023 12:00:00 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"yellow","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"12/29/2023 12:00:00 AM","parent_task":"PRJ0010142"},{"short_description":"Operationalize","parent":"Project Status Report Basleine","work_start":"09/22/2023 04:38:53 PM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"0","number":"PRJTASK0010757","sys_id":"46fd3f4d1b65bd10243f6287624bcb80","u_comments":"","sys_updated_by":"system","u_end_date":"09/22/2023 04:38:53 PM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"red","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/14/2023 11:19:19 AM","parent_task":"PRJ0010142"},{"short_description":"Leverage & Grow & Programs","parent":"Project Status Report Basleine","work_start":"09/23/2022 12:00:00 AM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"70","number":"PRJTASK0010758","sys_id":"4afd3f4d1b65bd10243f6287624bcb81","u_comments":"","sys_updated_by":"system","u_end_date":"12/29/2023 12:00:00 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"green","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"12/29/2023 12:00:00 AM","parent_task":"PRJ0010142"},{"short_description":"Leverage & Gro& Programs","parent":"Project Status Report Basleine","work_start":"01/04/2022 12:00:00 AM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"50","number":"PRJTASK0010760","sys_id":"8afd3f4d1b65bd10243f6287624bcb80","u_comments":"","sys_updated_by":"system","u_end_date":"12/29/2023 12:00:00 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"green","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"12/29/2023 12:00:00 AM","parent_task":"PRJ0010142"},{"short_description":"test - child of a child task","parent":"Project Status Report Basleine","work_start":"","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"0","number":"PRJTASK0011195","sys_id":"8efd3f4d1b65bd10243f6287624bcb81","u_comments":"","sys_updated_by":"system","u_end_date":"09/14/2023 11:19:19 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Pending","u_status":"red","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/14/2023 11:19:19 AM","parent_task":"PRJTASK0010757"},{"short_description":"child task of 'here is another child task' so basically the child of a child?","parent":"Project Status Report Basleine","work_start":"09/22/2023 04:38:53 PM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"0","number":"PRJTASK0011198","sys_id":"c2fd3f4d1b65bd10243f6287624bcb82","u_comments":"","sys_updated_by":"system","u_end_date":"09/22/2023 04:38:53 PM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"red","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/22/2023 04:38:53 PM","parent_task":"PRJTASK0011197"},{"short_description":"Review Clinical Trial Software Platforms  & Determine Final Platform","parent":"Project Status Report Basleine","work_start":"09/21/2023 09:29:01 AM","time_constraint":"Must start on","sys_mod_count":"0","active":"false","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"100","number":"PRJTASK0010761","sys_id":"c6fd3f4d1b65bd10243f6287624bcb7f","u_comments":"","sys_updated_by":"system","u_end_date":"09/21/2023 09:29:01 AM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"09/21/2023 09:29:01 AM","state":"Closed Complete","u_status":"red","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/21/2023 09:29:01 AM","parent_task":"PRJ0010142"},{"short_description":"here is another child task","parent":"Project Status Report Basleine","work_start":"09/22/2023 04:38:53 PM","time_constraint":"Must start on","sys_mod_count":"0","active":"true","sys_updated_on":"09/26/2023 01:54:15 PM","sys_tags":"","percent_complete":"0","number":"PRJTASK0011197","sys_id":"cefd3f4d1b65bd10243f6287624bcb80","u_comments":"","sys_updated_by":"system","u_end_date":"09/22/2023 04:38:53 PM","sys_created_on":"09/26/2023 01:54:15 PM","sys_domain":"global","baseline_name":"Project Status Report Basleine","u_work_end":"","state":"Work in Progress","u_status":"red","baseline_config":"Project Key Milestone Baseline","sys_created_by":"system","start_date":"09/22/2023 04:38:53 PM","parent_task":"PRJTASK0010757"}],
+	
+	
+	
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 21:54:49</sys_created_on>
+        <sys_id>72a035ad976db110405b1400f153af97</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ProjectTaskHierarchy_Danith</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_script_include_72a035ad976db110405b1400f153af97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 16:38:40</sys_updated_on>
+    </sys_script_include>
+</record_update>
