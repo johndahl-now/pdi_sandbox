@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true" audit="true" db_object_id="bada5aac97e13110405b1400f153afa0" extends="task" label="Sandbox Task" max_length="40" name="x_803922_sbx_task" type="collection">
-        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element label="Cost" mandatory="true" max_length="20" name="cost" type="currency"/>
         <element attributes="tree_picker=true" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Email domains" max_length="250" name="email_domains" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return new global.GlideQuery.parse( 'incident', 'active=true' )&#13;&#10;&#9;&#9;.count();&#13;&#10;&#13;&#10;})(current);" label="Incident count" max_length="40" name="incident_count" type="integer" virtual="true"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var start = new GlideDateTime( current.getValue( 'sys_created_on' ) );&#13;&#10;&#9;var now = new GlideDateTime();&#13;&#10;&#9;&#13;&#10;&#9;return GlideDateTime.subtract( start, now );&#13;&#10;&#9;&#13;&#10;})(current);" label="Open duration" max_length="40" name="open_duration" type="glide_duration" virtual="true"/>
         <element label="Other data" max_length="4000" name="other_data" type="simple_name_values"/>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_803922_sbx.Test</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Test</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 01:27:32</sys_created_on>
+        <sys_id>9901887197ee3110405b1400f153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.Test</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_user_role_9901887197ee3110405b1400f153af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 01:27:32</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_user_role_9901887197ee3110405b1400f153af4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_803922_sbx.Test</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>Test</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-17 01:27:32</sys_created_on><sys_id>9901887197ee3110405b1400f153af4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_803922_sbx.Test</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_user_role_9901887197ee3110405b1400f153af4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-17 01:27:32</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1312689233</payload_hash>
+        <record_name>x_803922_sbx.Test</record_name>
+        <reverted_from/>
+        <source>f1deb88497a2b110405b1400f153af2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 01:27:32</sys_created_on>
+        <sys_id>1411c87197ee3110405b1400f153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdae3ef010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 01:27:32</sys_updated_on>
+        <type>Role</type>
+        <update_guid>5811c8713cee3110a1cf50d741fd95ae</update_guid>
+        <update_guid_history>5811c8713cee3110a1cf50d741fd95ae:-1312689233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_803922_sbx.Test">3a05cc5197973510405b1400f153af5c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 19:15:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>1b8bb23ef9da444283a6faa44891d8d1</sys_id>
+        <sys_metadata>9901887197ee3110405b1400f153af4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803922_sbx.Test</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_user_role_9901887197ee3110405b1400f153af4e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_9901887197ee3110405b1400f153af4e">1411c87197ee3110405b1400f153afaf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 19:15:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

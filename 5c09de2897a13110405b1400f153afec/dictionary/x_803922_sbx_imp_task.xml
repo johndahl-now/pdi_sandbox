@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa9eb9cd97aef510405b1400f153afbb" extends="sys_import_set_row" label="Import Sandbox Tasks" max_length="40" name="x_803922_sbx_imp_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Correlation ID" label="Correlation ID" max_length="40" name="u_correlation_id" type="string"/>
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="40" name="u_cost" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Impact" label="Impact" max_length="40" name="u_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other data" label="Other data" max_length="4000" name="u_other_data" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="160" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Task type" label="Task type" max_length="40" name="u_task_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Urgency" label="Urgency" max_length="40" name="u_urgency" type="string"/>
+    </element>
+</database>

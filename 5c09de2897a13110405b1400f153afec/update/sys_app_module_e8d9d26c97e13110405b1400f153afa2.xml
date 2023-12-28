@@ -13,7 +13,7 @@
         <mobile_title>Studio</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>0</order>
+        <order>1000</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/$studio.do?sysparm_transaction_scope=5c09de2897a13110405b1400f153afec&amp;sysparm_nostack=true</query>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e8d9d26c97e13110405b1400f153afa2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Studio</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
         <sys_update_name>sys_app_module_e8d9d26c97e13110405b1400f153afa2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-24 22:20:28</sys_updated_on>
+        <sys_updated_on>2023-12-12 14:12:21</sys_updated_on>
         <timeline_page/>
         <title>Studio</title>
         <uncancelable>false</uncancelable>

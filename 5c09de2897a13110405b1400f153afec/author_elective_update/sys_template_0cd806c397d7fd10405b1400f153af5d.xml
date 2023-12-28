@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEST</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-28 15:20:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cd806c397d7fd10405b1400f153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_update_name>sys_template_0cd806c397d7fd10405b1400f153af5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-28 15:20:39</sys_updated_on>
+        <table>incident</table>
+        <template>short_description=Testing template hierarchy^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sandbox">5c09de2897a13110405b1400f153afec</application>
+        <file_path/>
+        <instance_id>a8178c24db31eddcdc3fc59705961919</instance_id>
+        <instance_name>dev167239</instance_name>
+        <name>sys_template_0cd806c397d7fd10405b1400f153af5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>TEST</name><next/><next_child/><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-28 15:20:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0cd806c397d7fd10405b1400f153af5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEST</sys_name><sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package><sys_policy/><sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope><sys_update_name>sys_template_0cd806c397d7fd10405b1400f153af5d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-28 15:20:39</sys_updated_on><table>incident</table><template>short_description=Testing template hierarchy^EQ</template><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>-2089203837</payload_hash>
+        <record_name>TEST</record_name>
+        <reverted_from/>
+        <source>f1deb88497a2b110405b1400f153af2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-28 15:20:39</sys_created_on>
+        <sys_id>88f8c6c397d7fd10405b1400f153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb10367610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-28 15:20:39</sys_updated_on>
+        <type>Template</type>
+        <update_guid>ccf8c6c3c1d7fd107743a1cd1bb790d5</update_guid>
+        <update_guid_history>ccf8c6c3c1d7fd107743a1cd1bb790d5:-2089203837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-28 15:26:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>153ec411582945bdb1a9a68f7f21b599</sys_id>
+        <sys_metadata>0cd806c397d7fd10405b1400f153af5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Sandbox" source="x_803922_sbx">5c09de2897a13110405b1400f153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sandbox">5c09de2897a13110405b1400f153afec</sys_scope>
+        <sys_scope_delete display_value="">19536a7b7ee84ae4833621a2699a6444</sys_scope_delete>
+        <sys_update_name>sys_template_0cd806c397d7fd10405b1400f153af5d</sys_update_name>
+        <sys_update_version display_value="sys_template_0cd806c397d7fd10405b1400f153af5d">88f8c6c397d7fd10405b1400f153afd6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-28 15:26:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
